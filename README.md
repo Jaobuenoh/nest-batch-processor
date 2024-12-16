@@ -21,6 +21,7 @@ Nosso front-end é desenvolvido com **React.js** e **Next.js**, garantindo inter
 - Nest.JS ✔
 - Docker ✔
 - MongoDb ✔
+- RabbitMQ ✔
 
 ## Requisitos Técnicos 😁
 
@@ -54,7 +55,7 @@ O seu papel é desenvolver uma aplicação que seja capaz de:
 
 - Esta aplicação será responsável por:
 - Receber os batches de dados da primeira aplicação.
-- Processar e armazenar os dados recebidos em um banco de dados não relacional, preferencialmente MongoDB.
+- Processar e armazenar os dados recebidos em um banco de dados não relacional, preferencialmente MongoDB, utilize a ODM que melhor agradar.
 - O dado que será armazenado no banco é o nome dos estados presentes no arquivo .csv, juntamente com a quantidade total de pessoas para cada estado (i.e., um somatório de pessoas por estado).
 
 ### Etapas:
@@ -78,6 +79,8 @@ O seu papel é desenvolver uma aplicação que seja capaz de:
 - Certifique-se de que a solução seja escalável e eficiente para um possível deploy na AWS.
 
 ### Considerações:
+
+**A segunda aplicação é esta que contem o arquivo de instruções, o CSV, você encontra na pasta support**
 
 A solução deve ser testável e escalável, garantindo que possa suportar o envio contínuo de dados em batch.
 Utilize boas práticas de desenvolvimento, como testes unitários, tratamento de erros, e logs para monitorar o comportamento das aplicações.
