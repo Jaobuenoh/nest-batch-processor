@@ -43,7 +43,7 @@ Você encontrará em nosso repositório um arquivo .csv contendo 10 mil linhas e
 
 O seu papel é desenvolver uma aplicação que seja capaz de:
 
-- Ler o arquivo .csv com eficiência.
+- Ler o arquivo .csv com eficiência, você pode optar por criar uma rota no controlador para receber o arquivo ou simplesmente ler o arquivo embutido no código, fica ao seu critério.
 - Processar os dados, tratando qualquer inconsistência.
 - Dividir os dados em batches de 1000 registros, respeitando o limite de envio de 1000 dados por segundo para a segunda aplicação.
 - Enviar esses batches para a segunda aplicação por meio de uma interface de comunicação (como uma API REST ou mensageria).
