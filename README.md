@@ -37,7 +37,7 @@ Se você pensa que o papel de um Engenheiro Back-End se resume a criar C.R.U.D. 
 
 O objetivo deste projeto é criar uma aplicação robusta para processamento de dados em batch, dividida em duas partes: uma aplicação que realiza a leitura e o envio dos dados em lotes e outra aplicação para recepção e armazenamento eficiente dessas informações, agregando-as por estado e total de pessoas, com a possibilidade de deploy em um ambiente escalável como a **AWS**.
 
-Você encontrará em nosso repositório um arquivo .csv contendo 2 milhões de linhas e 3 colunas. Seu desafio como engenheiro back-end será desenvolver duas aplicações utilizando NestJS, aplicando os princípios de DDD (Domain-Driven Design) e SOLID, para processar, tratar e armazenar esses dados.
+Você encontrará em nosso repositório um arquivo .csv contendo 10 mil linhas e 4 colunas. Seu desafio como engenheiro back-end será desenvolver duas aplicações utilizando NestJS, aplicando os princípios de DDD (Domain-Driven Design) e SOLID, para processar, tratar e armazenar esses dados.
 
 ### Aplicação 1 - Leitura e Envio dos Dados:
 
@@ -61,7 +61,7 @@ O seu papel é desenvolver uma aplicação que seja capaz de:
 
 1. Leitura de Dados (Aplicação 1):
    
-- Ler o arquivo .csv com 2M de linhas de maneira eficiente, evitando carregar o arquivo inteiro na memória de uma vez.
+- Ler o arquivo .csv com 10 mil linhas de maneira eficiente, evitando carregar o arquivo inteiro na memória de uma vez.
 - Processar os dados para garantir sua integridade (tratar dados nulos, duplicados, etc.).
 - Implementar uma lógica de envio dos dados em batches de 1000 registros por segundo para a segunda aplicação.
 
